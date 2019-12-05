@@ -1,0 +1,8 @@
+{
+  "editor.fontFamily": "'Hack', 'Fira Code', 'Cascadia Code', 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "files.autoSave": "afterDelay",
+  "window.zoomLevel": 1,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always"
+}

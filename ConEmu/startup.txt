@@ -1,0 +1,5 @@
+"%ConEmuDir%\..\Git\git-cmd.exe" -cur_console:d:C:\Users\ArianKadkhoda\Documents\git\quote --no-cd --command=usr/bin/bash.exe -l -i
+"%ConEmuDir%\..\Git\git-cmd.exe" -cur_console:d:C:\Users\ArianKadkhoda\Documents\git\quote\src\quote-web -cur_console:s --no-cd --command=usr/bin/bash.exe -l -i
+"%ConEmuDir%\..\Git\git-cmd.exe" -cur_console:d:C:\Users\ArianKadkhoda\Documents\git\master\quote --no-cd --command=usr/bin/bash.exe -l -i
+"%ConEmuDir%\..\Git\git-cmd.exe" -cur_console:d:C:\Users\ArianKadkhoda\Documents\git\master\quote\src\quote-web -cur_console:s --no-cd --command=usr/bin/bash.exe -l -i
+
