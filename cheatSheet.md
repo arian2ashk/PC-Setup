@@ -200,6 +200,12 @@ git config --global gui.gcwarning false
 ```
 
 
+#### fixing error 'Updating the Git index failed. A rescan will be automatically started to resynchronize git-gui.':
+```
+git config --global core.autocrlf false
+```
+
+
 
 # npm:
 
