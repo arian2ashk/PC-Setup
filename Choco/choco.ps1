@@ -1,7 +1,8 @@
-Set-ExecutionPolicy Bypass -Scope Process -Force;
+Set-ExecutionPolicy Bypass;
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'));
 
 choco feature enable -n=useRememberedArgumentsForUpgrades
+choco feature enable -n=allowGlobalConfirmation
 
 choco install vscode
 choco install visualstudio2019enterprise
@@ -22,8 +23,6 @@ choco install resharper
 choco install 7zip 
 choco install ravendb --params="'/setup-as-service /start-service'"
 choco install sql-server-management-studio
-choco install wixedit
 choco install kdiff3
 choco install nodejs
 choco install sql-server-2019
-#choco install skype
