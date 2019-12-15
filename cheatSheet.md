@@ -216,6 +216,13 @@ npm cache clean
 ```
 
 
+#### start an http server:
+```
+npx http-server
+```
+
+
+
 # Nuget:
 
 #### cleaning nuget cache:
