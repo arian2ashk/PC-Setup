@@ -222,6 +222,12 @@ npx http-server
 ```
 
 
+#### check npm package updates:
+```
+ncu
+```
+
+
 
 # Nuget:
 
