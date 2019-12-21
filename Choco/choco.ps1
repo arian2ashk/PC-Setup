@@ -29,5 +29,6 @@ choco install sql-server-2019
 choco install nordvpn
 choco install logitechgaming
 choco install geforce-experience
+choco install ngrok
 
 # WixEdit, Office 2019, Kmplayer, Free download manager needs manual installation
