@@ -30,5 +30,6 @@ choco install nordvpn
 choco install logitechgaming
 choco install geforce-experience
 choco install ngrok
+choco install hackfont
 
 # WixEdit, Office 2019, Kmplayer, Free download manager needs manual installation
