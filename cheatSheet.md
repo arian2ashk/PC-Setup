@@ -209,6 +209,12 @@ git config --global core.autocrlf false
 
 # npm:
 
+#### clean npm install
+```
+rm -rf node_modules/ && rm -rf package-lock.json && npm install
+```
+
+
 #### cleaning npm:
 ```
 npm prune
