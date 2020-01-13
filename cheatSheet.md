@@ -234,6 +234,11 @@ ncu
 ```
 
 
+#### check npm package updates, match packages that start with "xxx" using regex:
+```
+ncu "/^xxx.*$/"
+```
+
 
 # Nuget:
 
