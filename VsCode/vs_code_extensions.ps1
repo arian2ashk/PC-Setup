@@ -5,7 +5,7 @@ $extensions = @(
   #"akamud.vscode-theme-onelight",
   "AndrewRazumovsky.vscode-styled-jsx-languageserver",
   #"arcticicestudio.nord-visual-studio-code",
-  "bceskavich.theme-dracula-at-night",
+  #"bceskavich.theme-dracula-at-night",
   "bierner.markdown-emoji",
   "bierner.markdown-preview-github-styles",
   "blanu.vscode-styled-jsx",
@@ -39,7 +39,7 @@ $extensions = @(
   "Prisma.vscode-graphql",
   #"rmnl.theme-solarized-flat-dark",
   #"sdras.night-owl",
-  "Shan.code-settings-sync",
+  #"Shan.code-settings-sync",
   "silvenon.mdx",
   "SimonSiefke.svg-preview",
   "streetsidesoftware.code-spell-checker",
@@ -51,7 +51,7 @@ $extensions = @(
   #"whizkydee.material-palenight-theme",
   "Yummygum.city-lights-icon-vsc",
   #"yummygum.city-lights-theme",
-  "zhuangtongfa.material-theme",
+  #"zhuangtongfa.material-theme",
   "zxh404.vscode-proto3"
 )
 
