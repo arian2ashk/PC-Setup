@@ -202,12 +202,18 @@ git config --global gui.gcwarning false
 
 #### fixing error 'Updating the Git index failed. A rescan will be automatically started to resynchronize git-gui.':
 ```
-git config --global core.autocrlf false
+git config --global core.whitespace cr-at-eol
 ```
 
 
 
 # npm:
+
+#### clean npm install
+```
+rm -rf node_modules/ && rm -rf package-lock.json && npm install
+```
+
 
 #### cleaning npm:
 ```
@@ -227,6 +233,11 @@ npx http-server
 ncu
 ```
 
+
+#### check npm package updates, match packages that start with "xxx" using regex:
+```
+ncu "/^xxx.*$/"
+```
 
 
 # Nuget:
