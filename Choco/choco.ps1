@@ -32,5 +32,6 @@ choco install geforce-experience
 choco install ngrok
 choco install hackfont
 choco install microsoft-teams
+choco install powertoys
 
 # WixEdit, Office 2019, Kmplayer, Free download manager needs manual installation
