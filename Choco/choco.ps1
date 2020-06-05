@@ -28,7 +28,7 @@ choco install nodejs
 #choco install sql-server-2019
 choco install nordvpn
 choco install logitechgaming
-choco install geforce-experience
+#choco install geforce-experience
 #choco install ngrok
 choco install hackfont
 choco install microsoft-teams
