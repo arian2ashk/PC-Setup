@@ -17,7 +17,7 @@ $extensions = @(
   "DotJoshJohnson.xml",
   "eamodio.gitlens",
   "eg2.vscode-npm-script",
-  "emmanuelbeziat.vscode-great-icons",
+  #"emmanuelbeziat.vscode-great-icons",
   #"Equinusocio.vsc-material-theme",
   "esbenp.prettier-vscode",
   #"felipe-mendes.slack-theme",
