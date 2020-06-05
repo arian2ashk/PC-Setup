@@ -14,14 +14,14 @@ choco install spotify
 choco install adobereader
 choco install steam
 #choco install virtualbox
-choco install firefox
+#choco install firefox
 #choco install linqpad
 #choco install postman
 #choco install screentogif
 choco install telegram
 choco install resharper
 choco install 7zip 
-#choco install ravendb --params="'/setup-as-service /start-service'"
+choco install ravendb #--params="'/setup-as-service /start-service'"
 #choco install sql-server-management-studio
 choco install kdiff3
 choco install nodejs
@@ -29,9 +29,9 @@ choco install nodejs
 choco install nordvpn
 choco install logitechgaming
 choco install geforce-experience
-choco install ngrok
+#choco install ngrok
 choco install hackfont
 choco install microsoft-teams
-choco install powertoys
+#choco install powertoys
 
 # WixEdit, Office 2019, Kmplayer, Free download manager needs manual installation
