@@ -185,6 +185,13 @@ press Esc to save and :wq and enter to continue
 ```
 
 
+#### set username and password:
+```
+git config --global user.name "<Your-Full-Name>"
+git config --global user.email "<your-email-address>"
+```
+
+
 
 # git gui:
 
