@@ -138,8 +138,8 @@ git log --decorate --graph --oneline --cherry-mark --boundary A...B
 
 #### create a release:
 ```
-git tag -m "new prerelease" release/1.2.x-beta
-git push origin release/1.2.x-beta
+git tag -m "new prerelease" v1.2.x-beta
+git push origin v1.2.x-beta
 ```
 
 
