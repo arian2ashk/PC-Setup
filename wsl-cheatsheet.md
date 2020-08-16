@@ -4,6 +4,13 @@ wsl --list --verbose
 ```
 
 
-wsl --distribution ubuntu
-
+#### shutdown all distributions:
+```
 wsl --shutdown 
+```
+
+
+#### start specific distribution:
+```
+wsl --distribution ubuntu
+```
