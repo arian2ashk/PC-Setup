@@ -48,5 +48,7 @@ choco install microsoft-teams
 choco pin add -n=microsoft-teams
 #choco install powertoys
 choco install zoom
+choco install docker-desktop
+choco pin add -n=docker-desktop
 
 # WixEdit, Office 2019, Kmplayer, Free download manager needs manual installation
