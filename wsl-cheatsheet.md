@@ -14,3 +14,9 @@ wsl --shutdown
 ```
 wsl --distribution ubuntu
 ```
+
+
+#### logout of distribution:
+```
+exit
+```
