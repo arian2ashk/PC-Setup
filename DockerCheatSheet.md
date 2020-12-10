@@ -6,9 +6,15 @@ docker pull <ImageName>
 ```
 
 
-#### Run image:
+#### Run image(Create a container):
 ```
 docker run <ImageName>
+```
+
+
+#### Run image with port forwarding(Create a container and forwards port  in container to port  on host):
+```
+docker run -p <portOnTheHost>:<portInTheContainer> <ImageName>
 ```
 
 
