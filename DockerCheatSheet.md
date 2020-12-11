@@ -99,7 +99,47 @@ on Dos: %cd%
 
 # Dockerfile:
 
-#### Pull image:
+#### Create From a base image:
 ```
-docker pull <ImageName>
+FROM <ImageName>
 ```
+
+
+#### Label the custom image:
+```
+LABEL <text>
+LABEL author="Bob"
+```
+
+
+#### Copy to the custom image:
+```
+COPY <sourceDir> <InsideContainerDir>
+COPY . /var/www
+```
+
+
+#### Specify working directory for the custom image:
+```
+WORKDIR <InsideContainerDir>
+```
+
+
+#### Run command inside the custom image:
+```
+RUN <command>
+```
+
+
+#### Specify the port that is exposed in the custom image:
+```
+EXPOSE <portNumber>
+```
+
+
+#### Specify the entry point in the custom image:
+```
+ENTRYPOINT [<entryPoint>,<entryPoint>]
+```
+
+
