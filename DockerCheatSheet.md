@@ -12,6 +12,13 @@ docker run <ImageName>
 ```
 
 
+#### Create a container and link terminal into the container(example opens bash inside the container):
+```
+docker run -it <ImageName>
+docker run -it <ImageName> /bin/bash
+```
+
+
 #### Create a container with port forwarding:
 ```
 docker run -p <portOnTheHost>:<portInTheContainer> <ImageName>
@@ -79,3 +86,12 @@ docker rm -v <partOfTheContainerId>
 ```
 docker rmi <partOfTheImageId>
 ```
+
+
+#### Terminal Shortcuts:
+```
+on Linux: $(pwd)
+on Windows Powershell: ${PWD}
+on Dos: %cd%
+```
+
