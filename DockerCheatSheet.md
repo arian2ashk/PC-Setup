@@ -25,7 +25,7 @@ docker run -p <portOnTheHost>:<portInTheContainer> <ImageName>
 ```
 
 
-#### Create a container with data volume(will create a volume on the host and attach it to the container with the specified alias):
+#### Create a container with data volume(will create a volume on the host and attach it to the container with the specified alias. This volume is managed by docker):
 ```
 docker run -v <ContainerVolumeAlias> <ImageName>
 docker run -v /var/www Quote
@@ -76,7 +76,7 @@ docker rm <partOfTheContainerId>
 ```
 
 
-#### remove container(Cleanup volume):
+#### remove container(Cleanup volume that is managed by docker. If not managed by docker the volume will not be removed):
 ```
 docker rm -v <partOfTheContainerId>
 ```
@@ -95,3 +95,11 @@ on Windows Powershell: ${PWD}
 on Dos: %cd%
 ```
 
+
+
+# Dockerfile:
+
+#### Pull image:
+```
+docker pull <ImageName>
+```
