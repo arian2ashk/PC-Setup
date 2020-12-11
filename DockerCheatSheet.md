@@ -19,6 +19,12 @@ docker run -it <ImageName> /bin/bash
 ```
 
 
+#### Create a container in daemon mode(runs in background and command line is free for use):
+```
+docker run -d <ImageName>
+```
+
+
 #### Create a container with port forwarding:
 ```
 docker run -p <portOnTheHost>:<portInTheContainer> <ImageName>
@@ -96,6 +102,12 @@ on Dos: %cd%
 ```
 
 
+#### Build image(if docker file uses default name Dockerfile no need to specify):
+```
+docker build -f <dockerFileName> -t <imageName/tagName> <buildContextDir>
+```
+
+
 
 # Dockerfile:
 
@@ -139,9 +151,30 @@ EXPOSE <portNumber>
 
 #### Specify the entry point in the custom image:
 ```
-ENTRYPOINT [<entryPoint>,<entryPoint>]
+ENTRYPOINT ["<entryPoint>","<entryPoint>"]
 ENTRYPOINT ["npm","start"]
 ENTRYPOINT npm start
+```
+
+
+#### Specify a volume that will be created in the custom image:
+```
+VOLUME ["<ContainerVolumeAlias>"]
+```
+
+
+#### Specify environment variables for the custom image:
+```
+ENV <variableName>=<value>
+ENV NODE_ENV=production
+```
+
+
+#### Use specified environment variable in the docker file:
+```
+$<variableName>
+ENV PORT=3000
+EXPOSE $PORT
 ```
 
 
