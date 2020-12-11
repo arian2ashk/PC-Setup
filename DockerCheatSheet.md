@@ -25,6 +25,13 @@ docker run -v /var/www Quote
 ```
 
 
+#### Create a container with data volume host address specified($(pwd) is current working directory):
+```
+docker run -v $(pwd):<ContainerVolumeAlias> <ImageName>
+docker run -v $(pwd):/var/www Quote
+```
+
+
 #### Inspect container:
 ```
 docker inspect <ContainerName>
