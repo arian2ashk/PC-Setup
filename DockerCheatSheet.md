@@ -6,15 +6,28 @@ docker pull <ImageName>
 ```
 
 
-#### Run image(Create a container):
+#### Create a container:
 ```
 docker run <ImageName>
 ```
 
 
-#### Run image with port forwarding(Create a container and forwards port  in container to port  on host):
+#### Create a container with port forwarding:
 ```
 docker run -p <portOnTheHost>:<portInTheContainer> <ImageName>
+```
+
+
+#### Create a container with data volume(will create a volume on the host and attach it to the container with the specified alias):
+```
+docker run -v <ContainerVolumeAlias> <ImageName>
+docker run -v /var/www Quote
+```
+
+
+#### Inspect container:
+```
+docker inspect <ContainerName>
 ```
 
 
