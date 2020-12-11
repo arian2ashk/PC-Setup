@@ -32,9 +32,16 @@ docker run -v $(pwd):/var/www Quote
 ```
 
 
+#### Create a container and run commands in specific container directory:
+```
+docker run -v $(pwd):<ContainerVolumeAlias> -w "<ContainerVolumeAlias>" <ImageName> <extraCommandsYouWantExecutedInContainer>
+docker run -v $(pwd):/var/www -w "/var/www" QuoteWeb npm start
+```
+
+
 #### Inspect container:
 ```
-docker inspect <ContainerName>
+docker inspect <ContainerNameOrPartOfTheContainerId>
 ```
 
 
@@ -59,6 +66,12 @@ docker ps -a
 #### remove container(by typing for instance 24 as container id it will remove the container that starts with 24 as container id):
 ```
 docker rm <partOfTheContainerId>
+```
+
+
+#### remove container(Cleanup volume):
+```
+docker rm -v <partOfTheContainerId>
 ```
 
 
