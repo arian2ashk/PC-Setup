@@ -140,6 +140,8 @@ EXPOSE <portNumber>
 #### Specify the entry point in the custom image:
 ```
 ENTRYPOINT [<entryPoint>,<entryPoint>]
+ENTRYPOINT ["npm","start"]
+ENTRYPOINT npm start
 ```
 
 
