@@ -156,7 +156,7 @@ on Dos: %cd%
 
 #### Build image(if docker file uses default name Dockerfile no need to specify):
 ```
-docker build -f <dockerFileName> -t <imageName/tagName> <buildContextDir>
+docker build -f <dockerFileNamePathFromTheBuildContextDir> -t <imageName/tagName> <buildContextDir>
 ```
 
 
@@ -279,6 +279,12 @@ docker-compose up
 #### create and start container in docker compose file without creating its dependencies:
 ```
 docker-compose up --no-deps <serviceName>
+```
+
+
+#### Build services defined in docker compose file:
+```
+docker-compose up -d
 ```
 
 
