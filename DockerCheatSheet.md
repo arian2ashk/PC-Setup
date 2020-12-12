@@ -256,3 +256,71 @@ EXPOSE $PORT
 ```
 
 
+
+# Docker compose yaml file:
+
+#### Build services defined in docker compose file:
+```
+docker-compose build
+```
+
+#### Build individual services defined in docker compose file:
+```
+docker-compose build <serviceName>
+```
+
+
+#### create, link and start containers in docker compose file:
+```
+docker-compose up
+```
+
+
+#### create and start container in docker compose file without creating its dependencies:
+```
+docker-compose up --no-deps <serviceName>
+```
+
+
+#### teardown(stop and remove) services in docker compose file:
+```
+docker-compose down
+```
+
+
+#### teardown(stop and remove) services and images and volumes in docker compose file:
+```
+docker-compose down --rmi all --volumes
+```
+
+
+#### View the logs in docker compose file:
+```
+docker-compose logs
+```
+
+
+#### list the containers running in docker compose file:
+```
+docker-compose ps
+```
+
+
+#### stop services in docker compose file:
+```
+docker-compose stop
+```
+
+
+#### start services in docker compose file:
+```
+docker-compose start
+```
+
+
+#### remove containers in docker compose file:
+```
+docker-compose rm
+```
+
+
