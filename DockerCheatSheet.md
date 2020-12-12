@@ -6,46 +6,58 @@ docker pull <ImageName>
 ```
 
 
-#### Create a container:
+#### Run a container:
 ```
 docker run <ImageName>
 ```
 
 
-#### Create a container and link terminal into the container(example opens bash inside the container):
+#### Run a container and link terminal into the container(example opens bash inside the container):
 ```
 docker run -it <ImageName>
 docker run -it <ImageName> /bin/bash
 ```
 
 
-#### Create a container in daemon mode(runs in background and command line is free for use):
+#### Run a container in daemon mode(runs in background and command line is free for use):
 ```
 docker run -d <ImageName>
 ```
 
 
-#### Create a container with port forwarding:
+#### Run a container and give it a custom name(used for legacy linking):
+```
+docker run --name <customContainerName> <ImageName>
+```
+
+
+#### Run a container and link it to another container(legacy linking):
+```
+docker run --link <customNameOfLinkedContainer>:<linkedContainerAliasInThisContainer> <ImageName>
+```
+
+
+#### Run a container with port forwarding:
 ```
 docker run -p <portOnTheHost>:<portInTheContainer> <ImageName>
 ```
 
 
-#### Create a container with data volume(will create a volume on the host and attach it to the container with the specified alias. This volume is managed by docker):
+#### Run a container with data volume(will create a volume on the host and attach it to the container with the specified alias. This volume is managed by docker):
 ```
 docker run -v <ContainerVolumeAlias> <ImageName>
 docker run -v /var/www Quote
 ```
 
 
-#### Create a container with data volume host address specified($(pwd) is current working directory):
+#### Run a container with data volume host address specified($(pwd) is current working directory):
 ```
 docker run -v $(pwd):<ContainerVolumeAlias> <ImageName>
 docker run -v $(pwd):/var/www Quote
 ```
 
 
-#### Create a container and run commands in specific container directory:
+#### Run a container and run commands in specific container directory:
 ```
 docker run -v $(pwd):<ContainerVolumeAlias> -w "<ContainerVolumeAlias>" <ImageName> <extraCommandsYouWantExecutedInContainer>
 docker run -v $(pwd):/var/www -w "/var/www" QuoteWeb npm start
@@ -133,6 +145,13 @@ FROM <ImageName>
 ```
 LABEL <text>
 LABEL author="Bob"
+```
+
+
+#### Specify the maintainer of the custom image:
+```
+MAINTAINER <maintainerName>
+MAINTAINER Bob the builder
 ```
 
 
