@@ -85,6 +85,18 @@ docker network create --driver bridge isolated_network
 ```
 
 
+#### List all networks available for the container:
+```
+docker network ls
+```
+
+
+#### Inspect network:
+```
+docker network inspect <networkName>
+```
+
+
 #### Run and attach the container to the custom network:
 ```
 docker run --net=<customNetworkName> --name <customContainerNameUsedForLinking> <ImageName>
