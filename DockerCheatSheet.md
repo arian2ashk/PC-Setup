@@ -78,6 +78,20 @@ docker exec d6 npm run dev
 ```
 
 
+#### Create a network for the containers:
+```
+docker network create --driver <driverType> <customNetworkName>
+docker network create --driver bridge isolated_network
+```
+
+
+#### Run and attach the container to the custom network:
+```
+docker run --net=<customNetworkName> --name <customContainerNameUsedForLinking> <ImageName>
+docker run -d --net=isolated_network --name mongodb mongo
+```
+
+
 #### Inspect container:
 ```
 docker inspect <ContainerNameOrPartOfTheContainerId>
