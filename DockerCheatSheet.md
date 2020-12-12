@@ -108,6 +108,18 @@ docker build -f <dockerFileName> -t <imageName/tagName> <buildContextDir>
 ```
 
 
+#### Publish image to docker hub:
+```
+docker push <imageName/tagName>
+```
+
+
+#### Login to docker hub:
+```
+docker login
+```
+
+
 
 # Dockerfile:
 
