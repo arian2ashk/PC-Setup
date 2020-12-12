@@ -40,7 +40,7 @@ docker run --link <customNameOfLinkedContainer>:<linkedContainerAliasInThisConta
 #### Run a container with environment variable:
 ```
 docker run -e <variableName>=<value> <ImageName>
-docker run -e NODE_ENV=production node:latest
+docker run -e NODE_ENV=production node
 ```
 
 
