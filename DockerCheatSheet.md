@@ -131,6 +131,13 @@ COPY . /var/www
 ```
 
 
+#### Copy to the custom image from another image:
+```
+COPY --from=<sourceImageAlias> <sourceDir> <InsideContainerDir>
+COPY --from=publish /app .
+```
+
+
 #### Specify working directory for the custom image:
 ```
 WORKDIR <InsideContainerDir>
