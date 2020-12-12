@@ -37,6 +37,13 @@ docker run --link <customNameOfLinkedContainer>:<linkedContainerAliasInThisConta
 ```
 
 
+#### Run a container with environment variable:
+```
+docker run -e <variableName>=<value> <ImageName>
+docker run -e NODE_ENV=production node:latest
+```
+
+
 #### Run a container with port forwarding:
 ```
 docker run -p <portOnTheHost>:<portInTheContainer> <ImageName>
@@ -61,6 +68,13 @@ docker run -v $(pwd):/var/www Quote
 ```
 docker run -v $(pwd):<ContainerVolumeAlias> -w "<ContainerVolumeAlias>" <ImageName> <extraCommandsYouWantExecutedInContainer>
 docker run -v $(pwd):/var/www -w "/var/www" QuoteWeb npm start
+```
+
+
+#### Execute command in running container:
+```
+docker exec <partOfTheContainerId> <command>
+docker exec d6 npm run dev
 ```
 
 
@@ -195,7 +209,7 @@ ENTRYPOINT npm start
 ```
 
 
-#### Specify a volume that will be created in the custom image:
+#### Specify a volume that will be created in the custom image(Be careful with volumes, it can make some of the commands in the file to be overwritten):
 ```
 VOLUME ["<ContainerVolumeAlias>"]
 ```
