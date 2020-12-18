@@ -24,7 +24,7 @@ choco install 7zip
 choco install ravendb #--params="'/setup-as-service /start-service'"
 #choco install sql-server-management-studio
 choco install kdiff3
-choco install nodejs
+choco install nodejs-lts
 #choco install sql-server-2019
 choco install nordvpn
 choco install logitechgaming
