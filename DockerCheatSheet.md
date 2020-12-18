@@ -25,6 +25,12 @@ docker run -it <ImageName> /bin/bash
 ```
 
 
+#### Run a container into bash:
+```
+docker run -it <ImageName> bash
+```
+
+
 #### Run a container in daemon mode(runs in background and command line is free for use):
 ```
 docker run -d <ImageName>
