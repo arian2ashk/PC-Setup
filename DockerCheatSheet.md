@@ -188,13 +188,6 @@ LABEL author="Bob"
 ```
 
 
-#### Specify the maintainer of the custom image:
-```
-MAINTAINER <maintainerName>
-MAINTAINER Bob the builder
-```
-
-
 #### Copy to the custom image:
 ```
 COPY <sourceDir> <InsideContainerDir>
