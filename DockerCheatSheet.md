@@ -14,7 +14,7 @@ docker run <ImageName>
 
 #### Run a container and clean up when exiting:
 ```
-docker run -rm <ImageName>
+docker run --rm <ImageName>
 ```
 
 
