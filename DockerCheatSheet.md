@@ -12,6 +12,12 @@ docker run <ImageName>
 ```
 
 
+#### Run a container and clean up when exiting:
+```
+docker run -rm <ImageName>
+```
+
+
 #### Run a container and link terminal into the container(example opens bash inside the container):
 ```
 docker run -it <ImageName>
