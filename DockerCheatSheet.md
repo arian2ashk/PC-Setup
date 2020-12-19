@@ -184,6 +184,18 @@ docker login
 ```
 
 
+#### Purging All Dangling Images, Containers, Volumes, and Networks:
+```
+docker system prune
+```
+
+
+#### Purging All Unused or Dangling Images, Containers, Volumes, and Networks:
+```
+docker system prune -a
+```
+
+
 
 # Dockerfile:
 
