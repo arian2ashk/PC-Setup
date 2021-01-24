@@ -1,15 +1,24 @@
-# Introduction
+# Simple flow
 
-Configit.Quote project follows [GitFlow](GitFlow.md) branching
+```bash
+# checkout master
+
+$ git checkout master
+$ git pull
+
+# Create an annotated tag on master
+
+$ git tag -a v1.0.0 -m "v1.0.0"
+
+# Push master branch and the tag to GitHub
+
+$ git push --follow-tags
+```
+
+# GitFlow
+
+This follows [GitFlow](GitFlow.md) branching
 workflow.
-
-This document describes the process of preparing a new release of
-Configit.Quote.
-
-**TODO all of these instructions are executed locally. During next
-release, we have to figure out what permissions are needed from the
-user to publish the changes, or how to incorporate PRs into the
-flow.**
 
 # Releasing new major or minor version (from develop branch)
 
@@ -161,7 +170,3 @@ $ git push --delete hotfix/1.0.1
 Note: the `finish` command will ask for commit messages for merge
 commits - leave them at their default. It will also ask for message
 for the tag - typing e.g. "v1.0.1" is enough.
-
-# Releasing from support branch
-
-**TODO: describe the process during next release.**
