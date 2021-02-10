@@ -19,6 +19,8 @@ $ winrm enumerate winrm/config/listener
 $ New-NetFirewallRule -DisplayName 'WinRM HTTPS-In' -Name 'WinRM HTTPS-In' -Profile Any -LocalPort 5986 -Protocol TCP
 ```
 
+## Remember to open up Azure NSG for port 5986
+
 # Testing remote access to server
 
 ```powershell
