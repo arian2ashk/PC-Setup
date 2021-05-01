@@ -28,6 +28,7 @@ choco install 7zip
 choco install kdiff3
 choco install nodejs-lts
 choco install nordvpn
+choco install openvpn
 choco install logitechgaming
 choco install geforce-experience
 #choco install ngrok
