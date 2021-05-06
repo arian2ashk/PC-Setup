@@ -8,6 +8,7 @@ choco install googlechrome
 choco install vscode
 #choco install visualstudio2019enterprise
 #choco install visualstudio2019professional
+choco install visualstudio2019community
 choco install conemu
 choco install git
 choco install notepadplusplus
