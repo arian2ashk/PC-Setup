@@ -40,6 +40,7 @@ choco install hackfont
 choco install docker-desktop
 choco install discord
 #choco install slack
+choco install vlc
 
 choco pin add -n=docker-desktop
 choco pin add -n=googlechrome
