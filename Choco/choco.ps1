@@ -52,6 +52,7 @@ choco install hackfont
 choco install microsoft-teams
 choco pin add -n=microsoft-teams
 choco install powertoys
+choco pin add -n=powertoys
 #choco install zoom
 choco install docker-desktop
 choco pin add -n=docker-desktop
