@@ -61,4 +61,4 @@ choco install slack
 choco install vlc
 choco install freedownloadmanager
 
-# WixEdit, Office 2019, Kmplayer needs manual installation
+# WixEdit, Office 2019 needs manual installation
