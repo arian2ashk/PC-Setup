@@ -59,5 +59,6 @@ choco pin add -n=docker-desktop
 choco install discord
 choco install slack
 choco install vlc
+choco install freedownloadmanager
 
-# WixEdit, Office 2019, Kmplayer, Free download manager needs manual installation
+# WixEdit, Office 2019, Kmplayer needs manual installation
