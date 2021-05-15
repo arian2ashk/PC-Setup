@@ -60,5 +60,8 @@ choco install discord
 choco install slack
 choco install vlc
 choco install freedownloadmanager
+#choco install nzxt
 
-# WixEdit, Office 2019 needs manual installation
+
+# WixEdit, Office 2019, AORUS ENGINE, needs manual installation
+# NVIDIA Control Panel, MSI Dragon Center needs manual installation from windows store
