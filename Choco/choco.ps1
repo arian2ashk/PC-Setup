@@ -32,6 +32,7 @@ choco install firefox
 choco pin add -n=firefox
 #choco install linqpad
 choco install postman
+choco pin add -n=postman
 #choco install screentogif
 choco install telegram
 choco pin add -n=telegram
@@ -47,6 +48,7 @@ choco pin add -n=nordvpn
 choco install openvpn
 choco install logitechgaming
 choco install geforce-experience
+choco pin add -n=geforce-experience
 #choco install ngrok
 choco install hackfont
 choco install microsoft-teams
