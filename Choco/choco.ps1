@@ -63,6 +63,7 @@ choco install slack
 choco install vlc
 choco install freedownloadmanager
 #choco install nzxt
+#choco install gopro-quik
 
 
 # WixEdit, Office 2019, AORUS ENGINE, needs manual installation
