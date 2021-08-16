@@ -219,6 +219,7 @@ git config --global core.whitespace cr-at-eol
 #### clean npm install
 ```
 rm -rf node_modules/ && rm -rf package-lock.json && npm install
+rm -rf node_modules/ && rm -rf yarn.lock && yarn install
 ```
 
 
