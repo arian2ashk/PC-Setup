@@ -9,6 +9,8 @@ choco pin add -n=googlechrome
 choco install vscode
 choco pin add -n=vscode
 choco pin add -n="vscode.install"
+choco install visualstudio2022professional
+choco pin add -n=visualstudio2022professional
 #choco install visualstudio2019enterprise
 #choco pin add -n=visualstudio2019enterprise
 #choco install visualstudio2019professional
