@@ -26,7 +26,7 @@ choco install git
 choco install notepadplusplus
 #choco install spotify
 #choco pin add -n=spotify
-choco install adobereader
+#choco install adobereader
 choco install steam
 choco pin add -n=steam
 #choco install virtualbox
@@ -52,21 +52,23 @@ choco install logitechgaming
 choco install geforce-experience
 choco pin add -n=geforce-experience
 #choco install ngrok
-choco install hackfont
+#choco install hackfont
 choco install microsoft-teams
 choco pin add -n=microsoft-teams
 choco install powertoys
 choco pin add -n=powertoys
 #choco install zoom
-choco install docker-desktop
-choco pin add -n=docker-desktop
+#choco install docker-desktop
+#choco pin add -n=docker-desktop
 choco install discord
-choco install slack
+#choco install slack
 choco install vlc
 choco install freedownloadmanager
 #choco install nzxt
 #choco install gopro-quik
 #choco install azure-functions-core-tools
+choco install ubisoft-connect
+choco install epicgameslauncher
 
 
 # WixEdit, Office 2019, AORUS ENGINE, needs manual installation
