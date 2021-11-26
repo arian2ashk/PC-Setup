@@ -41,8 +41,8 @@ choco pin add -n=telegram
 choco pin add -n="telegram.install"
 choco install 7zip
 #choco install ravendb #--params="'/setup-as-service /start-service'"
-#choco install sql-server-2019
-#choco install sql-server-management-studio
+choco install sql-server-2019
+choco install sql-server-management-studio
 choco install kdiff3
 choco install nodejs-lts
 choco install nordvpn
@@ -51,13 +51,13 @@ choco install openvpn
 choco install logitechgaming
 choco install geforce-experience
 choco pin add -n=geforce-experience
-#choco install ngrok
+choco install ngrok
 #choco install hackfont
 choco install microsoft-teams
 choco pin add -n=microsoft-teams
 choco install powertoys
 choco pin add -n=powertoys
-#choco install zoom
+choco install zoom
 #choco install docker-desktop
 #choco pin add -n=docker-desktop
 choco install discord
