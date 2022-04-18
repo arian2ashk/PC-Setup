@@ -239,6 +239,7 @@ npx http-server
 #### check npm package updates:
 ```
 ncu
+ncu --loglevel verbose --packageFile package.json
 ```
 
 
