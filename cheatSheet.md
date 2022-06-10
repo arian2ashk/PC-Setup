@@ -6,6 +6,13 @@ git checkout -b <BranchName>
 ```
 
 
+#### Count number of lines:
+```
+git ls-files | xargs wc -l
+git ls-files | xargs cat | wc -l
+```
+
+
 #### Check if branch is behind another branch (first number is the number of commits behind, second number is commits ahead):
 ```
 git rev-list --left-right --count origin/<branchToCompareTo>...origin/<currentBranch>
