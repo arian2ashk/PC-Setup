@@ -71,7 +71,7 @@ choco install ubisoft-connect
 choco install epicgameslauncher
 choco install tomatoad
 choco install whatsapp
-choco install microsoft-windows-terminal
+winget install Microsoft.WindowsTerminal
 winget install JanDeDobbeleer.OhMyPosh -s winget
 winget install pwsh -s winget
 
