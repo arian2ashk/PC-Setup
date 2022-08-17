@@ -70,6 +70,7 @@ choco install freedownloadmanager
 choco install ubisoft-connect
 choco install epicgameslauncher
 choco install tomatoad
+choco install whatsapp
 
 
 # WixEdit, Office 2019, AORUS ENGINE, needs manual installation
