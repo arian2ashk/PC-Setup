@@ -1,7 +1,11 @@
 # Windows Terminal Configuration:
 
-1. Run powershell script outside the terminal with admin rights
+#### Run powershell script `installTheme.ps1` outside the terminal with admin rights
 
-2. Install all Hack Fonts from the zip file
+for more info check following links:
 
-3. Copy content of `Settings.json` file into settings of the terminal
+https://ohmyposh.dev/docs/installation/windows
+
+https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal
+
+https://gist.github.com/shanselman

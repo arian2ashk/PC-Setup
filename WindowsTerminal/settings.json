@@ -20,6 +20,10 @@
             "keys": "ctrl+shift+f"
         },
         {
+            "command": "newTab",
+            "keys": "ctrl+T"
+        },
+        {
             "command": 
             {
                 "action": "splitPane",
