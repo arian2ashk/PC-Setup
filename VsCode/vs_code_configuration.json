@@ -1,6 +1,6 @@
   
 {
-    "editor.fontFamily": "'Hack', 'Fira Code', 'Cascadia Code', 'Courier New', monospace",
+    "editor.fontFamily": "'JetBrainsMono NF', 'Hack', 'Fira Code', 'Cascadia Code', 'Courier New', monospace",
     "editor.fontLigatures": true,
     "files.autoSave": "afterDelay",
     "window.zoomLevel": 1,
