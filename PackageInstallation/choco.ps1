@@ -73,6 +73,7 @@ choco install tomatoad
 choco install whatsapp
 choco install pwsh
 choco install nerdfont-hack # https://www.nerdfonts.com/font-downloads
+choco install jetbrainsmononf # https://www.nerdfonts.com/font-downloads
 choco install firacodenf # https://www.nerdfonts.com/font-downloads
 winget install Microsoft.WindowsTerminal
 winget install JanDeDobbeleer.OhMyPosh -s winget
