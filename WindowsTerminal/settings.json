@@ -91,7 +91,6 @@
                 "colorScheme": "Solarized Dark",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
-                "name": "API",
                 "source": "Windows.Terminal.PowershellCore",
                 "startingDirectory": "C:\\Users\\arian\\Documents\\git\\Permitator.API"
             },
@@ -101,7 +100,6 @@
                 "guid": "{61849165-a561-40c8-9349-1a754586e86c}",
                 "hidden": false,
                 "icon": "ms-appx:///ProfileIcons/pwsh.png",
-                "name": "UI",
                 "startingDirectory": "C:\\Users\\arian\\Documents\\git\\Permitator.UI"
             }
         ]
@@ -316,5 +314,5 @@
             "yellow": "#808000"
         }
     ],
-    "startupActions": "; new-tab -p UI"
+    "startupActions": "; new-tab -p {61849165-a561-40c8-9349-1a754586e86c}"
 }
