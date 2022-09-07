@@ -1,5 +1,7 @@
 using namespace System.Management.Automation
 using namespace System.Management.Automation.Language
+
+$Host.UI.RawUI.WindowTitle = ((Get-Location).toString().split("\")[-1])
  
 if ($host.Name -eq 'ConsoleHost')
 {
