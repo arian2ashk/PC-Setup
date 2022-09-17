@@ -1,4 +1,5 @@
 $extensions = @(
+  "ChakrounAnas.turbo-console-log",
   "ms-azuretools.vscode-azurefunctions",
   "ms-vscode.vscode-typescript-tslint-plugin",
   #"akamud.vscode-caniuse",
