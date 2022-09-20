@@ -227,6 +227,7 @@ git config --global core.whitespace cr-at-eol
 ```
 rm -rf node_modules/ && rm -rf package-lock.json && npm install
 rm -rf node_modules/ && rm -rf yarn.lock && yarn install
+rm -r node_modules/ && rm -r yarn.lock && yarn install
 ```
 
 
