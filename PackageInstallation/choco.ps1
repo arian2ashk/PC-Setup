@@ -20,6 +20,7 @@ choco pin add -n=visualstudio2022professional
 #choco install resharper
 #choco pin add -n=resharper
 #choco pin add -n=resharper-platform
+choco install jetbrains-rider
 choco install conemu
 choco pin add -n=conemu
 choco install git
