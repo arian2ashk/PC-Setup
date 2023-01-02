@@ -42,7 +42,7 @@ choco pin add -n=telegram
 choco pin add -n="telegram.install"
 choco install 7zip
 #choco install ravendb #--params="'/setup-as-service /start-service'"
-choco install sql-server-2019
+choco install sql-server-2022
 choco install sql-server-management-studio
 choco install kdiff3
 choco install nodejs-lts
