@@ -49,7 +49,8 @@ choco install nodejs-lts
 choco install nordvpn
 choco pin add -n=nordvpn
 choco install openvpn
-choco install logitechgaming
+#choco install logitechgaming
+#choco install lghub
 choco install geforce-experience
 choco pin add -n=geforce-experience
 choco install ngrok
