@@ -52,6 +52,7 @@ choco install whatsapp
 winget install Microsoft.WindowsTerminal
 winget install JanDeDobbeleer.OhMyPosh -s winget
 winget install pwsh -s winget
+winget install SachaBruttin.CosmosDBExplorer
 
 
 # WixEdit, Office 2019, AORUS ENGINE, needs manual installation
