@@ -46,9 +46,9 @@ choco install sql-server-2022
 choco install sql-server-management-studio
 choco install kdiff3
 choco install nodejs-lts
-choco install nordvpn
-choco pin add -n=nordvpn
-choco install openvpn
+#choco install nordvpn
+#choco pin add -n=nordvpn
+#choco install openvpn
 #choco install logitechgaming
 #choco install lghub
 choco install geforce-experience
