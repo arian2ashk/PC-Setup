@@ -53,6 +53,7 @@ winget install Microsoft.WindowsTerminal
 winget install JanDeDobbeleer.OhMyPosh -s winget
 winget install pwsh -s winget
 winget install SachaBruttin.CosmosDBExplorer
+winget install microsoft.azd
 
 
 # WixEdit, Office 2019, AORUS ENGINE, needs manual installation
