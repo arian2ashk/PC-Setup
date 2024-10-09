@@ -81,6 +81,7 @@ winget install Microsoft.WindowsTerminal
 winget install JanDeDobbeleer.OhMyPosh -s winget
 choco install azure-data-studio
 winget install microsoft.azd
+choco install azure-cli
 
 
 # WixEdit, Office 2019, AORUS ENGINE, needs manual installation
