@@ -164,9 +164,9 @@ git push --delete origin <TagName>
 ```
 
 
-#### merge into another branch(when in develop):
+#### merge into another branch(when in main merges develop into main):
 ```
-git merge --no-ff main
+git merge --no-ff develop
 ```
 
 
