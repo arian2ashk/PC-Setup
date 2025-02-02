@@ -164,6 +164,12 @@ git push --delete origin <TagName>
 ```
 
 
+#### merge into another branch(when in develop):
+```
+git merge --no-ff main
+```
+
+
 #### Fix Filename too long issue:
 ```
 git config --system core.longpaths true
