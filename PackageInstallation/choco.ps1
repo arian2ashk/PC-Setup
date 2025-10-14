@@ -82,6 +82,7 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 choco install azure-data-studio
 winget install microsoft.azd
 choco install azure-cli
+choco install insomnia-rest-api-client
 
 
 # WixEdit, Office 2019, AORUS ENGINE, needs manual installation
