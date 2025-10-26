@@ -205,6 +205,19 @@ git config --global user.email "<your-email-address>"
 ```
 
 
+#### full release
+```
+git checkout main
+git pull
+git merge --no-ff develop
+git tag -m "v1.0.1" v1.0.1
+git push --follow-tags
+git checkout develop
+git merge --no-ff main
+git push
+```
+
+
 
 # git gui:
 
