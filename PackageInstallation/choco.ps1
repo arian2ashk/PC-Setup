@@ -34,8 +34,8 @@ choco pin add -n=steam
 choco install firefox
 choco pin add -n=firefox
 #choco install linqpad
-choco install postman
-choco pin add -n=postman
+# choco install postman
+# choco pin add -n=postman
 #choco install screentogif
 choco install telegram
 choco pin add -n=telegram
