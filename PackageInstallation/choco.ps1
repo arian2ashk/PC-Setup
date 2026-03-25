@@ -83,7 +83,7 @@ choco install azure-data-studio
 winget install microsoft.azd
 choco install azure-cli
 choco install insomnia-rest-api-client
-
+irm https://claude.ai/install.ps1 | iex
 
 # WixEdit, Office 2019, AORUS ENGINE, needs manual installation
 # NVIDIA Control Panel, MSI Dragon Center needs manual installation from windows store
